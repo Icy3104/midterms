@@ -1,0 +1,21 @@
+.item-table {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    border-collapse: collapse;
+  }
+ 
+  .item-table th, .item-table td {
+    padding: 12px;
+    text-align: left;
+  }
+ 
+  .item-table tbody tr {
+    transition: background-color 0.3s;
+  }
+ 
+  .item-table tbody tr:hover {
+    background-color: #333;
+  }
+ 
+

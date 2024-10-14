@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #77a290;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: #3e4e50;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.navbar-title {
+  margin: 0;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-links li {
+  margin: 0 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+form {
+  margin: 20px 0;
+}
+
+input,
+select {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #00796b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}

@@ -1,0 +1,22 @@
+.low-stock-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.low-stock-table th,
+.low-stock-table td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+
+.low-stock-table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+
+
